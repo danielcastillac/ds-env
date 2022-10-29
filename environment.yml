@@ -9,9 +9,11 @@ dependencies:
   - python=3.9
   - numpy
   - pandas
+  - tokenizers=0.12.1
   - pytorch
   - torchvision
   - torchaudio
+  - pytorch-lightning
   - cudatoolkit=11.6
   - transformers
   - notebook
