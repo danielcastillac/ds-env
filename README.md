@@ -25,3 +25,7 @@ python -m spacy download es_core_news_sm
 python -m nltk.downloader popular
 python -m textblob.download_corpora
 ```
+### TO-DO:
+- [ ] Rewrite makefile for automatic build and remove
+- [ ] Add option to makefile for tensorflow alternative
+- [ ] Add tests for gpu availability for each library
