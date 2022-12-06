@@ -4,7 +4,7 @@ Use of mamba is highly recommended over the out-of-box conda for creating and re
 ```
 conda install mamba -n base -c conda-forge
 ```
-## Note: Makefile currently not working due to conda issues, see [here](https://stackoverflow.com/questions/53382383/makefile-cant-use-conda-activate).
+### Note: Makefile currently not working due to conda issues, see [here](https://stackoverflow.com/questions/53382383/makefile-cant-use-conda-activate).
 
 ### Create environment:
 ```
