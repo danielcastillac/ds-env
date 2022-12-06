@@ -1,6 +1,5 @@
-name: pytorch_env
+name: tf_env
 channels:
-  - pytorch
   - nvidia
   - conda-forge
   - huggingface
@@ -11,12 +10,7 @@ dependencies:
   - numpy
   - pandas
   - tokenizers=0.12.1
-  - pytorch
-  - torchvision
-  - torchaudio
-  - pytorch-cuda=11.7
-  - pytorch-lightning
-  - cudatoolkit=11.6
+  - tensorflow
   - transformers
   - notebook
   - nb_conda_kernels

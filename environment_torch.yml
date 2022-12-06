@@ -1,0 +1,44 @@
+name: torch_env
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - huggingface
+  - plotly
+  - anaconda
+dependencies:
+  - python=3.9
+  - numpy
+  - pandas
+  - tokenizers=0.12.1
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=11.7
+  - pytorch-lightning
+  - cudatoolkit=11.6
+  - transformers
+  - notebook
+  - nb_conda_kernels
+  - jupyterlab
+  - ipywidgets
+  - tqdm
+  - black
+  - scrapy
+  - bokeh
+  - py-xgboost
+  - plotly=5.10.0
+  - scikit-learn
+  - matplotlib
+  - scipy
+  - boto3
+  - requests
+  - statsmodels
+  - seaborn
+  - spacy
+  - cupy
+  - textblob
+  - prophet
+  - opencv
+  - pytest
+  - dvc

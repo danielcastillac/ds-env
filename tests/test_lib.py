@@ -1,7 +1,12 @@
-def test_pytorch_gpu():  # TODO
+def test_torch_gpu():  # TODO
     import torch
 
     assert torch.cuda.is_available() == True
+
+def test_tf_gpu():
+    import tensorflow as tf
+
+    assert tf.config.list_physical_devices('GPU') 
 
 
 def test_transformers():  # TODO

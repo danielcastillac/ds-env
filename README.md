@@ -6,13 +6,13 @@ conda install mamba -n base -c conda-forge
 ```
 ### Create environment:
 ```
-mamba env create -f environment.yml
-conda activate pytorch_env
+mamba env create -f environment_{torch or tf}.yml
+conda activate {torch or tf}_env
 ```
 ### Re-create (first deactivate and remove, then create and activate with the previous steps)
 ```
 conda deactivate
-mamba env remove -n pytorch_env -y
+mamba env remove -n {torch or tf}_env -y
 ```
 ### To test the correct configuration run (needs pytest to be installed in the base environment):
 ```

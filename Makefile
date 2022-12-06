@@ -1,5 +1,8 @@
-build:
-	mamba env create -f environment.yml
+build_torch:
+	mamba env create -f environment_torch.yml
+
+build_tensorflow:
+	mamba env create -f environment_tf.yml
 
 remove:
 	conda deactivate
