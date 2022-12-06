@@ -1,5 +1,5 @@
 ## An all-around data science conda environment focused on either pytorch or tensorflow with GPU support
-*Only tried in Pop_OS (Ubuntu 22.04 LTS) 
+*Only tried in Pop_OS (Ubuntu 22.04 LTS)  
 Use of mamba is highly recommended over the out-of-box conda for creating and removing the environment, since its significantly faster and works as a drop-in replacement, but be careful not to use to activate or deactivate the environment itself:
 ```
 conda install mamba -n base -c conda-forge
