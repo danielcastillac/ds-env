@@ -1,9 +1,11 @@
-## An all-around data science conda environment focused on pytorch with GPU support
-*Only tried in Windows 10  
+## An all-around data science conda environment focused on either pytorch or tensorflow with GPU support
+*Only tried in Pop_OS (Ubuntu 22.04 LTS) 
 Use of mamba is highly recommended over the out-of-box conda for creating and removing the environment, since its significantly faster and works as a drop-in replacement, but be careful not to use to activate or deactivate the environment itself:
 ```
 conda install mamba -n base -c conda-forge
 ```
+## Note: Makefile currently not working due to conda issues, see [here](https://stackoverflow.com/questions/53382383/makefile-cant-use-conda-activate).
+
 ### Create environment:
 ```
 mamba env create -f environment_{torch or tf}.yml
@@ -27,5 +29,5 @@ python -m textblob.download_corpora
 ```
 ### TO-DO:
 - [ ] Rewrite makefile for automatic build and remove
-- [ ] Add option to makefile for tensorflow alternative
-- [ ] Add tests for gpu availability for each library
+- [X] ~~Add option to makefile for tensorflow alternative~~
+- [X] ~~Add tests for gpu availability for each library~~
