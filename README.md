@@ -30,4 +30,4 @@ python -m textblob.download_corpora
 ### TO-DO:
 - [ ] Rewrite makefile for automatic build and remove
 - [X] ~~Add option to makefile for tensorflow alternative~~
-- [X] ~~Add tests for gpu availability for each library~~
+- [X] ~~Add tests to check for gpu availability for each library~~

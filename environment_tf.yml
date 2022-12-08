@@ -36,3 +36,5 @@ dependencies:
   - opencv
   - pytest
   - dvc
+  - fastapi
+  - uvicorn
